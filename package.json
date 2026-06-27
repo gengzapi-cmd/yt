@@ -1,0 +1,13 @@
+{
+  "name": "serveryoutube-actions",
+  "version": "1.0.0",
+  "description": "YouTube Extractor via GitHub Actions (yt-dlp Arroxy trick)",
+  "type": "module",
+  "main": "extract.js",
+  "scripts": {
+    "extract": "node extract.js"
+  },
+  "dependencies": {
+    "youtube-dl-exec": "^2.4.15"
+  }
+}
